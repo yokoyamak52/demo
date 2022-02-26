@@ -1,12 +1,12 @@
 @charset "UTF-8";
 body {
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "游ゴシック", "Yu Gothic", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 16px;
   color: #2a2a2a; }
   body a {
     color: #2a2a2a; }
     body a:hover {
-      opacity: .7; }
+      opacity: 0.7; }
   @media screen and (max-width: 768px) {
     body {
       font-size: 14px; } }
@@ -130,8 +130,8 @@ main .main-container {
     text-align: center;
     margin: 0 0 40px;
     font-size: 24px;
-    letter-spacing: .2em;
-    text-indent: .2em; }
+    letter-spacing: 0.2em;
+    text-indent: 0.2em; }
     @media screen and (max-width: 768px) {
       main .main-container h2 {
         margin: 0 0 20px; } }
@@ -161,8 +161,8 @@ main .main-container {
       background-position: center;
       background-size: cover;
       font-size: 40px;
-      letter-spacing: .4em;
-      text-indent: .4em; }
+      letter-spacing: 0.4em;
+      text-indent: 0.4em; }
     main .main-container.swiper .swiper-slide:nth-child(4n + 1) {
       /*1、4、7、3n+1枚目の背景色 */
       background-image: url("../img/slide1.jpg"); }
@@ -384,16 +384,14 @@ footer {
 .effect {
   animation-name: imgbrightness;
   opacity: 1;
-  transition: .8s; }
+  transition: 0.8s; }
 
 @keyframes imgbrightness {
   0% {
     opacity: 0;
-    filter: brightness(150%);
-    /*　明度300%　*/ }
+    filter: brightness(150%); }
   100% {
     opacity: 1;
-    filter: brightness(100%);
-    /*　100%が基準値　*/ } }
+    filter: brightness(100%); } }
 
 /*# sourceMappingURL=common.css.map */
