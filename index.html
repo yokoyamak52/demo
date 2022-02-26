@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サンプルサイト</title>
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<header>
+  <nav class="globalnav-wrap">
+    <h1>LOGO</h1>
+    <div class="nav-button-wrap">
+      <div class="nav-button"> <span></span> <span></span> <span></span> </div>
+    </div>
+    <div class="globalnav">
+      <ul>
+        <li class="dropdown-btn"> <a href="#">メニュー1</a>
+          <ul class="dropdown">
+            <li><a href="#">ドロップダウンメニュー</a></li>
+            <li><a href="#">ドロップダウンメニュー</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-btn"> <a href="#">メニュー2</a>
+          <ul class="dropdown">
+            <li><a href="#">ドロップダウンメニュー</a></li>
+            <li><a href="#">ドロップダウンメニュー</a></li>
+            <li><a href="#">ドロップダウンメニュー</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-btn"> <a href="#">メニュー3</a> </li>
+        <li class="dropdown-btn"> <a href="#">メニュー4</a> </li>
+        <li class="dropdown-btn"> <a href="#">メニュー5</a> </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="swiper main-container visible"> 
+    <!-- 必要に応じたwrapper -->
+    <div class="swiper-wrapper"> 
+      <!-- スライド -->
+      <div class="swiper-slide">SAMPLE</div>
+      <div class="swiper-slide">SAMPLE</div>
+      <div class="swiper-slide">SAMPLE</div>
+      <div class="swiper-slide">SAMPLE</div>
+    </div>
+  </div>
+  <!-- /.main-container -->
+  <div class="about main-container visible">
+    <h2>タイトル</h2>
+    <div class="container-inner"> <img src="img/about.jpg" alt="画像" class="container-img">
+      <div class="container-txt">
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+    </div>
+    <!-- /.container-innner --> 
+  </div>
+  <!-- /.main-container -->
+  <div class="pickup main-container visible">
+    <h2>タイトル</h2>
+    <div class="container-inner">
+      <div class="container-box"> <img src="img/dog1.jpg" alt="画像">
+        <div class="container-txt">
+          <p>テキストテキストテキスト</p>
+        </div>
+      </div>
+      <!-- /.container-box -->
+      <div class="container-box"> <img src="img/dog2.jpg" alt="画像">
+        <div class="container-txt">
+          <p>テキストテキストテキスト</p>
+        </div>
+      </div>
+      <!-- /.container-box -->
+      <div class="container-box"> <img src="img/dog3.jpg" alt="画像">
+        <div class="container-txt">
+          <p>テキストテキストテキスト</p>
+        </div>
+      </div>
+      <!-- /.container-box -->
+      <div class="container-box"> <img src="img/cat1.jpg" alt="画像">
+        <div class="container-txt">
+          <p>テキストテキストテキスト</p>
+        </div>
+      </div>
+      <!-- /.container-box -->
+      <div class="container-box"> <img src="img/cat2.jpg" alt="画像">
+        <div class="container-txt">
+          <p>テキストテキストテキスト</p>
+        </div>
+      </div>
+      <!-- /.container-box -->
+      <div class="container-box"> <img src="img/cat3.jpg" alt="画像">
+        <div class="container-txt">
+          <p>テキストテキストテキスト</p>
+        </div>
+      </div>
+      <!-- /.container-box --> 
+    </div>
+    <!-- /.container-innner --> 
+  </div>
+  <!-- /.main-container -->
+  <div class="other main-container visible">
+    <h2>タイトル</h2>
+    <div class="container-inner">
+      <div class="container-txt">
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキスト</p>
+      </div>
+    </div>
+    <!-- /.container-innner --> 
+  </div>
+  <!-- /.main-container -->
+  <div class="contact main-container visible">
+    <h2>タイトル</h2>
+    <div class="container-inner">
+      <div class="container-txt">
+        <p>テキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキスト</p>
+      </div>
+      <div class="form">
+        <div class="form-item">
+          <p class="form-item-label"><span class="form-item-label-required">必須</span>お名前</p>
+          <input type="text" class="form-item-input" placeholder="お名前をご記入ください">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label"><span class="form-item-label-required">必須</span>お電話番号</p>
+          <input type="text" class="form-item-input" placeholder="お電話番号をご記入ください">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label"><span class="form-item-label-required">必須</span>メールアドレス</p>
+          <input type="email" class="form-item-input" placeholder="メールアドレスをご記入ください">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label"><span class="form-item-label-required">必須</span>件名</p>
+          <input type="title" class="form-item-input" placeholder="件名をご記入ください">
+        </div>
+        <div class="form-item">
+          <p class="form-item-label ismsg"><span class="form-item-label-required">必須</span>お問い合わせ内容</p>
+          <textarea class="form-item-textarea"></textarea>
+        </div>
+        <input type="submit" class="form-btn" value="送信する">
+      </div>
+    </div>
+    <!-- /.container-innner --> 
+  </div>
+  <!-- /.main-container --> 
+  
+</main>
+<footer>
+  <ul class="footer-nav">
+    <li><a href="#">メニュー1</a></li>
+    <li><a href="#">メニュー2</a></li>
+    <li><a href="#">メニュー3</a></li>
+    <li><a href="#">メニュー4</a></li>
+    <li><a href="#">メニュー5</a></li>
+  </ul>
+  <div class="copyright"> ©2022 KAORI YOKOYAMA </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script> 
+<script src="js/common.js"></script>
+</body>
+</html>
