@@ -224,21 +224,17 @@ main {
       }
 
       .swiper-slide:nth-child(4n + 1) {
-        /*1、4、7、3n+1枚目の背景色 */
         background-image: url("../img/slide1.jpg");
       }
 
       .swiper-slide:nth-child(4n + 2) {
-        /*2、5、8、3n+2枚目の背景色 */
         background-image: url("../img/slide2.jpg");
       }
 
       .swiper-slide:nth-child(4n + 3) {
-        /*3、6、9、3n+3枚目の背景色 */
         background-image: url("../img/slide3.jpg");
       }
       .swiper-slide:nth-child(4n + 4) {
-        /*3、6、9、3n+3枚目の背景色 */
         background-image: url("../img/slide4.jpg");
       }
     } // .swiper
