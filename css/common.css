@@ -63,8 +63,8 @@ header {
         top: 0px;
         z-index: 1000;
         cursor: pointer;
-        padding: 15px;
-        height: 53px; }
+        padding: 18px;
+        height: 56px; }
       header .globalnav {
         display: none; }
         header .globalnav .close {
